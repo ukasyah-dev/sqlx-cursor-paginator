@@ -9,7 +9,7 @@ serde = { version = "1.0.219", features = ["derive"] }
 sqlx = { version = "0.8.5", features = ["postgres", "runtime-tokio"] }
 sqlx-page = { git = "https://github.com/qwfy/sqlx-page.git", branch = "master" }
 service-util = { git = "https://github.com/ukasyah-dev/service-util.git", branch = "main" }
-utoipa = "5.3.1"
+utoipa = { git = "https://github.com/juhaku/utoipa.git", rev = "cecda0531bf7d90800af66b186055932ee730526" }
 chrono = "0.4.41"
 base64 = "0.22.1"
 log = "0.4.27"
